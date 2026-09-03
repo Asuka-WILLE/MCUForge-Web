@@ -1226,7 +1226,7 @@
         <h3>对话驱动，<br>五角色各就各位。</h3>
         <p>用户一句话描述目标，Manager 创建独立项目房间、拉齐五个角色，并按 Phase 拆解任务分派给 Requirement / Research。整个过程在 Element Web 公开可见，<b>任何时刻都能审计</b>。</p>
       </div>
-      <div class="story-shot focus-evidence focus-top-left"><img src="../demo截图/发送需求.png" alt="Manager 接收自然语言需求并创建项目房间" loading="lazy"></div>
+      <div class="story-shot focus-evidence focus-top-left"><img src="assets/story-01-send-request.png" alt="Manager 接收自然语言需求并创建项目房间" loading="lazy"></div>
     </div>
 
     <div class="story-row flip reveal">
@@ -1235,7 +1235,7 @@
         <h3>状态透明，<br><em>阶段可回放。</em></h3>
         <p>Requirement 角色完成 file-sync 后回执 <code class="inline">FILE_SYNC_OK</code>，每个任务绑定 CONTRACT 阶段状态；<b>[PROGRESS] 规范化上报</b>让用户随时区分 Agent 在工作、等待还是卡死。</p>
       </div>
-      <div class="story-shot focus-evidence focus-left-center"><img src="../demo截图/requirement回复.png" alt="Requirement 角色的任务回执与阶段流转" loading="lazy"></div>
+      <div class="story-shot focus-evidence focus-left-center"><img src="assets/story-02-requirement-reply.png" alt="Requirement 角色的任务回执与阶段流转" loading="lazy"></div>
     </div>
 
     <div class="story-row reveal">
@@ -1260,7 +1260,7 @@
       <div class="story-wide-head"><span class="story-tag">05 · 异常处理实录</span></div>
       <h3>Worker 无回执的<em>自主诊断与恢复</em>。</h3>
       <p>Manager 每 10 分钟巡检发现：Worker 容器 Running 但超过 80 分钟无任务回执，单独私聊却又有回复。自主诊断定位为 HiClaw 消息投递链路缺可靠性机制（显示 running 但宿主机进程已崩溃、存在 60 秒异常重启临界），随后重新发送任务并恢复正常——这就是"任务重派"分支的真实来源。</p>
-      <div class="story-shot focus-evidence focus-bottom-left"><img src="../demo截图/worker无回应.png" alt="Manager 对 Worker 无回执的自主诊断与恢复" loading="lazy"></div>
+      <div class="story-shot focus-evidence focus-bottom-left"><img src="assets/story-05-worker-timeout.png" alt="Manager 对 Worker 无回执的自主诊断与恢复" loading="lazy"></div>
     </div>
 
     <div class="story-wide reveal">
